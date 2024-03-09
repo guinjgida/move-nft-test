@@ -1,0 +1,15 @@
+[package]
+name = "ALCOVE_NFT"
+version = "1.0.0"
+authors = []
+
+[addresses]
+alcove_nft = "1140fb62f9e9a358217001353ff184c96a5b04f8c601b35048fa8485e612f499"
+[dev-addresses]
+
+[dependencies.AptosTokenObjects]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-token-objects"
+
+[dev-dependencies]
